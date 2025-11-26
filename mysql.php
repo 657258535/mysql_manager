@@ -281,6 +281,11 @@ if (in_array($action, ['tables', 'view_table', 'view_structure', 'edit_structure
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nodeewa-数据库管理工具</title>
+    <style>
+        /* 引入xst.woff2全局字体 */
+        @font-face {font-family: 'Xst';src: url('xst.woff2') format('woff2');}
+        * {font-family: 'Xst', 楷体, "STKaiti", "PingFang SC", "Droid Sans Fallback", serif;}
+    </style> 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script>
