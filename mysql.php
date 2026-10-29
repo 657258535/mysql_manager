@@ -1538,5 +1538,17 @@ $csrfToken = csrfToken();
         window.addEventListener('resize', adjustTableLayout);
         adjustTableLayout();
     </script>
+<footer class="mt-10">
+    <div class="card py-5 text-center">
+        <a href="https://github.com/657258535/mysql_manager" target="_blank"
+           class="inline-flex items-center gap-2 text-gray-700 hover:text-primary transition-all">
+            <i class="fa fa-github text-xl"></i>
+            <span class="font-medium">mysql_manager</span>
+        </a>
+        <p class="text-xs text-gray-400 mt-2">GitHub Repository</p>
+    </div>
+</footer>
+
+
 </body>
 </html>
